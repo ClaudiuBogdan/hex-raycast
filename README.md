@@ -2,14 +2,16 @@
 
 A community Raycast extension for the [Hex dictation app](https://anoma.ly/hex/). Use it to find and reuse a transcript, toggle a setting, or dictate from a Raycast hotkey.
 
+The extension uses the [Hex app icon](https://github.com/anomalyco/hex/tree/dev/app/AppIcon.icon) from the installed macOS app. See [LICENSE](LICENSE) for attribution.
+
 ## Setup
 
 Install [Hex](https://anoma.ly/hex/) on an Apple silicon Mac running macOS 15 or later. The extension targets the CLI shipped with Hex 3.4.0 and uses Raycast API 2.11. Complete Hex's first-run setup before recording. The extension finds the CLI inside the app, so you do not need to configure a shell path.
 
-- **Search Dictation History** lists recent transcripts and searches all retained dictations by text. Enter pastes the selected transcript. The action menu offers copy, the raw variant when distinct, refresh, and Open History in Hex.
-- **Search Hex Settings & Labs** finds flags by name, description, or CLI key. See the current state and turn writable flags on or off. The action menu links to Hex Settings, Output, and the selected Lab.
-- **Toggle Dictation** starts or finishes a dictation using Hex's configured recording and delivery behavior.
-- **Copy Latest from History** copies the latest saved entry. Use the command's Transcript Variant preference to choose final or raw text.
+- **Search History** lists recent transcripts and searches all retained dictations by text. Enter pastes the selected transcript. The action menu offers copy, the raw variant when distinct, refresh, and Open History in Hex.
+- **Settings & Labs** finds flags by name, description, or CLI key. See the current state and turn writable flags on or off. The action menu links to Hex Settings, Output, and the selected Lab.
+- **Toggle Recording** starts or finishes a dictation using Hex's configured recording and delivery behavior.
+- **Copy Last Transcript** copies the latest saved entry. Use the command's Transcript Variant preference to choose final or raw text.
 - **Paste Last Dictation** asks the running Hex app to paste its last dictation. This can still work when History is off and Hex has the result in memory.
 
 Use Raycast Settings → Extensions → Hex to assign hotkeys. History reads work with Hex closed. Recording, Paste Last, and flag changes use the running Hex app.

@@ -22,42 +22,46 @@
   "commands": [
     {
       "name": "search-dictation-history",
-      "title": "Search Dictation History",
+      "title": "Search History",
       "subtitle": "Hex",
       "description": "Find, copy, and paste transcripts from Hex history.",
       "mode": "view",
       "keywords": [
         "transcription",
-        "recording"
+        "recording",
+        "dictation history"
       ]
     },
     {
       "name": "search-settings",
-      "title": "Search Hex Settings & Labs",
+      "title": "Settings & Labs",
       "subtitle": "Hex",
       "description": "Find and change Hex settings and Labs flags.",
       "mode": "view",
       "keywords": [
         "preferences",
         "experiments",
-        "features"
+        "features",
+        "search settings",
+        "search labs"
       ]
     },
     {
       "name": "toggle-dictation",
-      "title": "Toggle Dictation",
+      "title": "Toggle Recording",
       "subtitle": "Hex",
       "description": "Start or stop a Hex dictation.",
       "mode": "no-view",
       "keywords": [
         "record",
         "start recording",
-        "stop recording"
+        "stop recording",
+        "toggle dictation"
       ]
     },
     {
       "name": "copy-latest-history",
-      "title": "Copy Latest from History",
+      "title": "Copy Last Transcript",
       "subtitle": "Hex",
       "description": "Copy the newest saved Hex transcript.",
       "mode": "no-view",
@@ -80,6 +84,9 @@
             }
           ]
         }
+      ],
+      "keywords": [
+        "copy latest from history"
       ]
     },
     {
